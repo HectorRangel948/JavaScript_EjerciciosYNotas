@@ -127,3 +127,49 @@ console.log(listaDeComprasDeLaQuincena.join('\nProducto: '));
 Investigar:
 Reverse, Sort, toString, splice
 */
+
+// Modificación del arreglo (push, pop, shift, unshift, splice)
+
+// Acceso y búsqueda de elementos (indexOf, lastIndexOf)
+
+// Transformación de elementos (sort, reverse, map, foreach)
+
+// 
+/*
+let precios = [100,54, 67, 45];
+
+function descuento() {
+
+    //código para aplicar descuento
+}
+
+let preciosConDescuento =  [];*/
+
+//Splice (agregar, eliminar o remplazar elementos en posiciones específicas)
+
+//Splice para borrar elementos
+
+/*Sintaxis del Splice
+
+array.splice(iniciamos, numeroElementoABorrar, ElementoAInsertar, ElementoAInsertar);
+*/
+
+var abecedario = ["A", "B", "C", "D", "E"];
+
+abecedario.splice(2,2);
+
+console.log(abecedario);
+
+//Splice para incertar elementos
+//Empieza en la posición 2, borra 0 elementos y agrega los siguientes elementos
+
+abecedario.splice(2,0,"C","D");
+console.log(abecedario);
+
+// Splice para remplazar elementos del arreglo
+//Donde empieza, cuantos elementos se eliminan, qué valores se agregan
+var vocales = ["A", "B", "C", "D"];
+vocales.splice(2,2,"COMER", "COMER", "COMER");
+console.log(vocales);
+
+
